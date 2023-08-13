@@ -1,3 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream House Planner</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+        /* Home Section Styles */
+        #home {
+            background-image: url('home-bg.jpg');
+            background-size: cover;
+            color: #ff0000;
+            text-align: center;
+            padding: 10rem 0;
+        }
+        #home h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        #home p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #f39c12;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #e67e22;
+        }
+        /* Services Section Styles */
+        #services {
+            text-align: center;
+            padding: 6rem 0;
+            background-color: #fff;
+        }
+        #services h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        #services ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #services li {
+            margin: 1rem;
+            padding: 1.5rem;
+            background-color: #f39c12;
+            color: #fff;
+            border-radius: 4px;
+            flex: 1;
+            min-width: 280px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        #services li:hover {
+            background-color: #e67e22;
+        }
+        /* Portfolio Section Styles */
+        #portfolio {
+            text-align: center;
+            padding: 6rem 0;
+            background-color: #f4f4f4;
+        }
+        #portfolio h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        .project {
+            margin-bottom: 2rem;
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .project p {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+        }
+        /* Contact Section Styles */
+        #contact {
+            text-align: center;
+            padding: 6rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+        #contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        #contact p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .map {
+            margin: 2rem auto;
+            max-width: 100%;
+        }
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        button {
+            background-color: #f39c12;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #e67e22;
+        }
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        footer ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        footer ul li {
+            margin: 0 1rem;
+        }
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .social-media a {
+            font-size: 1.5rem;
+            color: #fff;
+            margin: 0 0.5rem;
+            transition: color 0.3s;
+        }
+        .social-media a:hover {
+            color: #f39c12;
+        }
+    </style>
+<head>
 <html>
 <head>
 <body>
